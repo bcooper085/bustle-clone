@@ -1,0 +1,11 @@
+<div class="row">
+  {{new-article saveArticle="saveArticle"}}
+</div>
+<div class="row">
+  <div class="col-md-12">
+      {{#each model as |article|}}
+      {{article-tile article=article deleteArticle="deleteArticle"}}
+      {{admin-tile article=article deleteArticle="deleteArticle"}}
+      {{/each}}
+  </div>
+</div>

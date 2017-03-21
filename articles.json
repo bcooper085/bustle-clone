@@ -7,8 +7,14 @@
 }, {
   "author": "Jim Jones",
   "heading": "Why the earth is flat",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
+  "image": "http://ursispaltenstein.ch/blog/images/uploads_img/random_natural_acts.jpg",
   "article": "Before we add data to our store through our Ember application, we can manually import the data from our hard-coded model hook directly into Firebase. This will allow us see what it looks like in Firebase, and understand how data arrives from Ember. Pre-loading the database with hard-coded data in this manner is known as seeding the database. Eventually we will get rid of this pre-seeded data, and instead allow users to create new rentals directly through the user interface of our application.",
   "date": "12/31/1698"
+}, {
+  "author": "Dr. Strange",
+  "heading": "The Broccoli Treehouse",
+  "image": "http://www.thisiscolossal.com/wp-content/uploads/2011/06/5868078138_8aac2b7490_b.jpg",
+  "article": "Before we add data to our store through our Ember application, we can manually import the data from our hard-coded model hook directly into Firebase. This will allow us see what it looks like in Firebase, and understand how data arrives from Ember. Pre-loading the database with hard-coded data in this manner is known as seeding the database. Eventually we will get rid of this pre-seeded data, and instead allow users to create new rentals directly through the user interface of our application.",
+  "date": "08/23/2012"
   }]
 }

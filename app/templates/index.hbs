@@ -1,14 +1,25 @@
 <div class="row">
-  <div class="col-md-4">
+  {{#carousel-container transitionInterval=400}}
+  {{#carousel-body}}
+  <div class="col-md-2">
+    {{#carousel-arrow direction="left" tagName="button"}}
+    Slide Left
+    {{/carousel-arrow}}
+  </div>
+  <div class="col-md-8">
+    {{#each model as |article|}}
+    {{carousel-tile article=article}}
+    {{/each}}
+  </div>
+  <div class="col-md-2">
+    {{#carousel-arrow direction="right" tagName="button"}}
+    Slide Right
+    {{/carousel-arrow}}
+  </div>
+  {{/carousel-body}}
+  {{/carousel-container}}
 
-    <p>image 1 text</p>
-  </div>
-  <div class="col-md-4">
-    <p>image 1 text</p>
-  </div>
-  <div class="col-md-4">
-    <p>image 1 text</p>
-  </div>
+
 </div>
 
 <div class="row">
