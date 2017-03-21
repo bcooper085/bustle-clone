@@ -3,7 +3,7 @@
   "heading": "How the moon landing was staged",
   "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
   "article": "Before we add data to our store through our Ember application, we can manually import the data from our hard-coded model hook directly into Firebase. This wil7nl allow us see what it looks like in Firebase, and understand how data arrives from Ember. Pre-loading the database with hard-coded data in this manner is known as seeding the database. Eventually we will get rid of this pre-seeded data, and instead allow users to create new rentals directly through the user interface of our application.",
-  "date": "12/31/1698"
+  "date": "03/21/2017"
 }, {
   "author": "Jim Jones",
   "heading": "Why the earth is flat",

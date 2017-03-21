@@ -1,1 +1,12 @@
-<h2>{{article.heading}}</h2>{{article.image}}<br>{{article.author}}{{article.date}}<br>{{article.article}}
+<div class="row">
+  <h2>{{model.heading}}</h2>
+</div>
+<div class="row">
+  <img src={{model.image}}>
+</div>
+<div class="row">
+  {{model.author}} | {{model.date}}
+</div>
+<div class="row">
+  {{model.article}}
+</div>

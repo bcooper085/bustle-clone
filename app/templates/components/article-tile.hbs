@@ -1,11 +1,14 @@
 <!--All articles  -->
+
 <div class="row">
   <div class="col-md-6">
     <img src={{article.image}}>
   </div>
   <div class="col-md-6">
     <div class="row">
+      {{#link-to 'article' article.id}}
       <h1 class="heading">{{article.heading}}</h1>
+      {{/link-to}}
     </div>
     <div class="row">
       <div class="col-md-12">
