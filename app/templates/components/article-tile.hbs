@@ -1,3 +1,24 @@
-<li>
-{{article.author}}<br> <img src={{article.image}}><br> {{article.header}}<br> {{article.article}}<br> {{article.date}}
-</li>
+<!--All articles  -->
+<div class="row">
+  <div class="col-md-6">
+    <img src={{article.image}}>
+  </div>
+  <div class="col-md-6">
+    <div class="row">
+      <h1 class="heading">{{article.heading}}</h1>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        {{article.article}}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-10">
+        By: {{article.author}}
+      </div>
+      <div class="col-md-1">
+        {{article.date}}
+      </div>
+    </div>
+  </div>
+</div>
